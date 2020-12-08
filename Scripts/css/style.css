@@ -1,0 +1,273 @@
+body , html {
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-position:center;
+    background-size: contain;
+
+    /* background image will fit entire height */
+    height: 100%;
+    /* Centering background image and scaling it */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+body.index {
+  background-image: url("../../images/homepagewallpaper.jpg");
+}
+body.others {
+  background-color: #D3D3D3;
+}
+
+    .head1 {
+        position: sticky;
+        text-align: center;
+        color:BLACK;
+        font-family: URW Chancery L, cursive;
+        font-size: 5em;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: auto;
+        text-shadow: 2px 2px #FFFAFA;
+
+
+    }
+    .head2 {
+        position: sticky;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom:15px;
+        text-shadow: 1px 1px #FFFAFA;
+    }
+
+    .form-wrap {
+
+      color: #DAA520	;
+      background-color: #333;
+      box-shadow: 2.5px 5px ;
+      padding: 30px 60px 30px 60px;
+      border-radius: 5px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+
+
+    }
+    .form-wrap label {
+        margin: 5px 10px 5px 0;
+      }
+
+    .form-wrap input[type=text]{
+      vertical-align: middle;
+      margin: 5px 10px 5px 0;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 5px 10px;
+    }
+
+    .form-wrap input[type=submit]{
+      padding: 10px 20px;
+      background-color: dodgerblue;
+      border: 1px solid #ddd;
+      color: white;
+    }
+
+/*  Next section is for SECOND SEARCH BAR design */
+    .form-wrap2 {
+
+      color: #FFFFFF;
+      background-color: #333;
+      box-shadow: 2.5px 5px ;
+      padding: 10px 20px 10px 20px;
+      border-radius: 5px;
+      position: relative;
+
+
+    }
+    .form-wrap2 label {
+        margin: 5px 10px 5px 0;
+      }
+
+    .form-wrap2 input[type=text]{
+      vertical-align: middle;
+      margin: 5px 10px 5px 0;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 5px 10px;
+
+
+      box-sizing: border-box;
+    }
+
+    .form-wrap2 input[type=submit]{
+      padding: 10px 20px;
+      background-color: dodgerblue;
+      border: 1px solid #ddd;
+      color: white;
+    }
+
+    .menu {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    .menu a {
+        float: left;
+        color: white;
+        text-align: center;
+
+        text-decoration: none;
+
+    }
+
+    .menu a:hover:not(.active) {
+        background-color: #FFD700;
+      }
+
+
+    .menu-log {
+        right: auto;
+        float: right;
+        background-color: #DAA520;
+    }
+
+/*  Next section is for Login page design */
+    .logincontainer {
+    	margin-top: 30px;
+      margin-bottom: 90px;
+    }
+
+    .signinform {
+      max-width: 400px;
+      padding: 14px 35px 45px;
+      margin: 0 auto;
+      background-color: #fff;
+      border: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .signinform input[type="text"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+  	}
+
+    .signinform select {
+      width: 60%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    .signinform input[type="password"] {
+       width: 100%;
+       padding: 12px 20px;
+       margin: 16px 0;
+       box-sizing: border-box;
+  	}
+
+    .signinform input[type="submit"]{
+      padding: 10px 20px;
+      background-color: dodgerblue;
+      border: 1px solid #ddd;
+      color: white;
+    }
+
+
+
+    .main {
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+      max-width: auto;
+      padding: 14px 35px 45px;
+
+      background-color: #fff;
+      border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+
+      .column {
+        float: left;
+        width: 32%;
+        padding: 0 10px;
+}
+
+      .column2 {
+        float: left;
+        width: 48.5%;
+        padding: 0 10px;
+      }
+
+
+
+      .row {
+        margin: 0 -5px;
+
+}
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+
+      @media screen and (max-width: 550px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+}
+
+
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          padding: 16px;
+          text-align: center;
+          background-color: #f1f1f1;
+}
+
+          .button1  {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;} /* Blue Button for booking*/
+          .button2 {
+            background-color: #f44336;} /* Red Button for booking */
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    padding-top:20px;
+    padding-bottom:50px;
+    text-align:center;
+    font-size:30px;
+    min-height: 3vh;
+
+    }
+
+.bodypart {
+    margin-left:20px;
+
+    }
